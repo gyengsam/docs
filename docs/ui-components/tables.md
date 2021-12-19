@@ -27,3 +27,19 @@ Tables are responsive by default, allowing wide tables to have a horizontal scro
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
 ```
+
+
+# Flow
+```mermaid
+graph LR
+A[Hard edge] -->B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+```
+
+```sequence
+Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob-->Alice: I am good thanks!
+```
